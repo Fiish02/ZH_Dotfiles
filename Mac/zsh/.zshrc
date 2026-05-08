@@ -46,3 +46,7 @@ load_config "lazy-loading.zsh"
 
 # 🧹 清理临时函数
 unfunction load_config
+
+# CodeX-Proxy API
+export MY_PROXY_KEY="sk-46d976fb88fc0c5085d4136012ea6f8b2f7734b43503e94809ef723955e83e45"
+alias codex-proxy='OPENAI_API_KEY=$MY_PROXY_KEY CODEX_HOME=$HOME/.codex-proxy codex'
